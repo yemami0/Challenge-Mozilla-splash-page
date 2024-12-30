@@ -1,0 +1,62 @@
+html {
+  background-image: url("pattern.png");
+}
+
+header,
+main {
+  margin: 0 90px;
+}
+
+header {
+  background-color: white;
+  border: 1px solid white;
+  width: auto;
+  height: 100px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 102.5px;
+  top: 22.5px;
+}
+
+main {
+  border: 1px solid rgba(128, 128, 128, 0.308);
+  border-style: none;
+}
+
+article {
+  background-color: rgb(181, 189, 189);
+  padding: 20px;
+}
+
+article p {
+  line-height: 0.95;
+  position: relative;
+}
+
+iframe {
+  float: left;
+  width: 400px;
+  height: 200px;
+  margin: 0px 20px 20px 0px;
+}
+
+div {
+  background-color: red;
+  padding-left: 40px;
+}
+
+div img {
+  width: 170px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.panda {
+  width: 100%;
+}
